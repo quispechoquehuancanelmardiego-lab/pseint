@@ -1,0 +1,15 @@
+Algoritmo practica_2
+	//realiza la suma de 2 numeros
+	//definir variables
+	Definir numero1, numero2 Como Entero
+	definir suma Como Entero
+	//entrada
+	escribir "ingrese el numero 1"
+	leer numero1
+	escribir "ingrese el numero 2"
+	leer numero2
+	//Proceso 
+	suma=numero1+numero2
+	//salida
+	escribir "el resultado de la suma es: " suma 
+FinAlgoritmo
