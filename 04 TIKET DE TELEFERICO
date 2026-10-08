@@ -1,0 +1,36 @@
+Algoritmo practica_4
+	//REALIZA UN PROGRAMA QUE PERMITA SIMULAR EL TIKE
+	//DE LA EMPRESA MI TELEFERICO CON LOS SIGUIENTES DATOS:
+	//color de linea
+	//numero de factura
+	//tarifa
+	//candidad de pasajeros
+	//total de precio
+	//DEFINIR VARIABLES
+	definir color Como Caracter
+	definir factura, tarifa, candidad, total Como Entero
+	//entrada
+	escribir "ingrese el color de linea del teleferico: "
+	leer color
+	escribir "ingrese el numero de factura: "
+	leer factura
+	escribir "ingrese la tarifa: "
+	leer tarifa
+	escribir "ingrese la candidad de pasajeros: "
+	leer candidad
+	//Proceso 
+	total=tarifa*candidad
+	//SALIDA
+	escribir "======================================"
+	escribir "           MI  TELEFERICO             "
+	escribir "======================================"
+	Escribir "LINEA: " color
+	escribir "FACTURA: " factura
+	escribir "TARIFA: " tarifa " Bs"
+	escribir "CANDIDAD: " candidad " Pasejeros"
+	escribir "SUB TOTAL: " total " Bs"
+	Escribir "TOTAL A PAGAR: "  total " Bs"
+	escribir "======================================"
+	escribir "     GRACIAS POR USAR MI TELEFERICO      "
+	escribir "======================================"
+FinAlgoritmo
