@@ -1,0 +1,42 @@
+Algoritmo practica
+	//realiza una calculadora
+	Definir numero1, numero2, resultado Como Real
+	definir opcion_calculadora Como Entero
+	//entrada 
+	escribir"--------CALCULADORA---------"
+	escribir"1. SUMA"
+	escribir"2. RESTA"
+	escribir"3. MULTIPLICACION"
+	escribir"4. DIVISION"
+	escribir"Elige una opicion del (1 al 4): "
+	leer opcion_calculadora
+	escribir"ingrese en primer numero: "
+	leer numero1
+	escribir"ingrese el segundo numero: "
+	leer numero2
+	segun opcion_calculadora Hacer
+		1:
+			resultado=numero1+numero2
+			escribir "OPERACION SUMA"
+			Escribir " la suma es: ", resutado
+		2:
+			resultado=numero1-numero2
+			escribir "OPERACION RESTA"
+			Escribir " la resta es: ", resutado
+		3:
+			resultado=numero1*numero2
+			escribir "OPERACION MULTIPLICACION"
+			Escribir " la multiplicaion es: ", resutado
+		4:
+			si numero2<> 0 Entonces
+				resultado=numero1/numero2
+				escribir "OPERACION DIVICION"
+				Escribir " la divicion es: ", resutado
+			SiNo
+				escribir "ERROR. No se puede dividir entre cero"
+			FinSi
+		de otro modo:
+			escribir "ERROR. SELECIONE NUEVAMENTE"
+	FinSegun
+	escribir"GRACIAS. POR UZAR MI CALCULADORA"
+FinAlgoritmo
